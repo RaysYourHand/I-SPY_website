@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I SPY</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Zen+Maru+Gothic:wght@500;700&family=Lilita+One&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a class="nav_logo" href="#" id="navLogo">
+            <img src="img/logo.png" alt="I SPY NCT WISH">
+        </a>
+        <div class="nav_links" id="navLinks">
+            <a class="nav_item active" href="#">
+                <img class="ic a" src="img/Disc.png" alt="">
+                <img class="ic b" src="img/Disc-1.png" alt="">
+                <span>專輯介紹</span>
+            </a>
+            <a class="nav_item" href="#">
+                <img class="ic a" src="img/Vector.png" alt="">
+                <img class="ic b" src="img/Vector-1.png" alt="">
+                <span>角色檔案</span>
+            </a>
+            <a class="nav_item" href="#">
+                <img class="ic a" src="img/Vector-2.png" alt="">
+                <img class="ic b" src="img/Vector-3.png" alt="">
+                <span>心動玩樂</span>
+            </a>
+            <a class="nav_item" href="#">
+                <img class="ic a" src="img/Vector-4.png" alt="">
+                <img class="ic b" src="img/Vector-5.png" alt="">
+                <span>四格照相館</span>
+            </a>
+            <a class="nav_item" href="#">
+                <img class="ic a" src="img/Vector-6.png" alt="">
+                <img class="ic b" src="img/Vector-7.png" alt="">
+                <span>音樂分享</span>
+            </a>
+            <i class="nav_bar" id="navBar"></i>
+        </div>
+    </nav>
+    <div class="stars" id="stars"></div>
+
+    <div class="hero" id="hero">
+    <div class="hero_left">
+        <img class="hero_logo" src="img/logo.png" alt="I SPY NCT WISH">
+        <span class="pill pill_dark">THE 4TH MINI ALBUM</span>
+    </div>
+
+    <div class="sticker_wrap">
+        <div class="sticker"><b>NEW!</b><small>DELUXE BOOK VER.</small></div>
+        <i class="spark spark_a"></i>
+        <i class="spark spark_b"></i>
+    </div>
+
+    <div class="hero_right">
+        <span class="pill pill_concept">CONCEPT</span>
+        <p>「I SPY」描繪遇見喜歡的人後，所有感官瞬間甦醒、心思全被對方牽動的羞澀與心動心情。歌詞將「偷偷觀察喜歡的人，眼神一對上就忍不住心動」的感覺生動唱出，散發出滿滿的校園戀愛劇既視感。</p>
+        <button class="next_btn" id="nextPage">
+            點擊進入下一頁
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M13 8l4 4-4 4"/></svg>
+        </button>
+    </div>
+</div>
+
+    <main class="stage">
+        <div class="caption"><span class="cap_a">PHOTOBOOK</span> 150*200(mm) / 184p</div>
+        <div class="book closed" id="book">
+
+            <div class="book_end">
+                <div class="cd" id="cd"></div>
+                <div class="sleeve"></div>
+            </div>
+            
+            <!-- 封面 -->
+            <div class="sheet">
+                <div class="face face_front" style="background-image: url('img/book_cover.png');"></div>
+                <div class="face face_back"></div>
+            </div>
+
+            <!-- 內頁 -->
+            <div class="sheet">
+                <div class="face face_front"></div>
+                <div class="face face_back"></div>
+            </div>
+            <div class="sheet">
+                <div class="face face_front"></div>
+                <div class="face face_back"></div>
+            </div>
+            <div class="sheet">
+                <div class="face face_front"></div>
+                <div class="face face_back"></div>
+            </div>
+            <div class="sheet">
+                <div class="face face_front"></div>
+                <div class="face face_back"></div>
+            </div>
+            <div class="sheet">
+                <div class="face face_front"></div>
+                <div class="face face_back"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 第二頁 -->
+    <div class="wipe_bg"><div class="wipe_fill" id="wipeFill"></div></div>
+    <div class="wipe" id="wipe">
+        <section class="page2">
+
+            <div class="bag" id="bag">
+                <svg class="cracks" id="cracks" viewBox="0 0 100 128" preserveAspectRatio="none"></svg>
+            </div>
+
+            <div class="gallery" id="gallery">
+                <button  class="arrow arrow_prev" id="previous"></button>
+                <button  class="arrow arrow_next" id ="next"></button>
+            </div>
+
+        <div class="detail" id="detail">
+            <svg class="lines" id="lines"></svg>
+            <button class="back_btn" id="back" aria-label="返回">‹</button>
+
+            <div class="card_wrap" id="cardWrap">
+                <div class="card_tag" id="cardTag"></div>
+                <div class="card" id="card">
+                    <div class="card_face card_front" id="cardFront"></div>
+                    <div class="card_face card_back">
+                        <div class="card_text" id="cardText"></div>
+                        <canvas id="scratch"></canvas>
+                    </div>
+                </div>
+                <button class="flip_btn" id="flipBtn" aria-label="翻面">↻</button>
+            </div>
+
+            <div class="dfig" id="dfig">
+                <div class="dfig_base" id="dfigBase"></div>
+                <div class="dfig_xwrap"><div class="dfig_xray" id="dfigXray"></div></div>
+                <div class="lens"></div>
+            </div>
+
+            <div class="info" id="info">
+                <div class="info_chip" id="infoChip"></div>
+                <p class="info_text" id="infoText"></p>
+            </div>
+            <div class="dtitle" id="dtitle"></div>
+        </div>
+        </section>
+    </div>
+    <div class="goods" id="goods">
+        <div class="good good_card">
+            <div class="good_img card_pair">
+                <div class="tilt">
+                    <img class="card_back_img" src="img/goods_card1.png" alt="">
+                    <img class="card_front_img" src="img/goods_card2.png" alt="">
+                </div>
+            </div>
+            <div class="good_label"><b>PHOTOCARD</b><small>58*85(MM) / RANDOM 1 OUT 6</small></div>
+        </div>
+        <div class="good good_cd">
+            <div class="good_label"><b>CD-R</b></div>
+        </div>
+        <div class="good good_sticker">
+            <div class="good_img">
+                <div class="tilt">
+                    <img src="img/goods_sticker.png" alt="">
+                </div>
+            </div>
+            <div class="good_label"><b>STICKER</b><small>80*100(MM) / 1 EACH</small></div>
+        </div>
+    </div>
+    <div class="flash" id="flash"></div>
+
+    <div class="track"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
